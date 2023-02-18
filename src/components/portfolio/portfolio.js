@@ -1,12 +1,16 @@
+import { Box } from '@mui/material';
 import React from 'react';
-import Header from '../header/header';
+import Sidebar from '../header/sidebar';
+import HomeCard from '../home/homeCard';
 import './portfolio.css'
 
 function Portfolio() {
     return (
-        <>
-            <Header />
-        </>
+        <Box className='background'>
+            <Sidebar />
+            <HomeCard />
+        </Box>
+        
     );
 }
 

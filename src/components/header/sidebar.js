@@ -7,56 +7,50 @@ import CodeRoundedIcon from '@mui/icons-material/CodeRounded';
 import LightModeRoundedIcon from '@mui/icons-material/LightModeRounded';
 import React, { useState } from 'react';
 import { Stack } from '@mui/system';
-import './header.css'; 
+import './sidebar.css'; 
 
-function Header() {
+function Sidebar() {
     const [theme, setTheme] = useState('Dark');
 
     return (
         <Box className='Box'>
             <Stack direction='column' spacing={4} className='Stack'>
-
                 <Stack direction='column' className='Sidebar-item'>
-                    <IconButton className='icon'>
-                        <HomeRoundedIcon fontSize='large'/>
+                    <IconButton >
+                        <HomeRoundedIcon  className='icon' fontSize='medium'/>
                     </IconButton>
-                    {/* <Typography className='icon-font'>Home</Typography> */}
                 </Stack>
 
                 <Stack direction='column' className='Sidebar-item'>
-                    <IconButton className='icon'>
-                        <AccountCircleRoundedIcon fontSize='large'/>
+                    <IconButton>
+                        <AccountCircleRoundedIcon className='icon' fontSize='medium'/>
                     </IconButton>
-                    {/* <Typography  className='icon-font'>About.Me</Typography> */}
                 </Stack>
 
                 <Stack direction='column' className='Sidebar-item'>
-                    <IconButton className='icon'>
-                        <ComputerRoundedIcon fontSize='large'/>
+                    <IconButton >
+                        <ComputerRoundedIcon className='icon' fontSize='medium'/>
                     </IconButton>
-                    {/* <Typography  className='icon-font'>Skills</Typography> */}
                 </Stack>
 
                 <Stack direction='column' className='Sidebar-item'>
-                    <IconButton className='icon'>
-                        <CodeRoundedIcon fontSize='large'/>
+                    <IconButton >
+                        <CodeRoundedIcon  className='icon' fontSize='medium'/>
                     </IconButton>
-                    {/* <Typography  className='icon-font'>Projects</Typography> */}
                 </Stack>
 
                 <Stack direction='column' className='Sidebar-item'>
-                    <IconButton className='icon'>
-                        <BusinessCenterRoundedIcon  fontSize='large'/>
+                    <IconButton >
+                        <BusinessCenterRoundedIcon className='icon' fontSize='medium'/>
                     </IconButton>
-                    {/* <Typography  className='icon-font'>Experience</Typography> */}
                 </Stack>
             </Stack>
 
-            <IconButton className='icon'>
-                <LightModeRoundedIcon fontSize='large'/>
+            <IconButton>
+                <LightModeRoundedIcon className='icon' fontSize='medium'/>
             </IconButton>
         </Box>
     );
 }
 
-export default Header;
+export default Sidebar;

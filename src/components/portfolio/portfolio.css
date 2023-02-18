@@ -1,14 +1,5 @@
-:root{
-    --background-color: #1F1F1F;
+.background{
+    width: 100vw;
+    height: 100vh;
+    background: var(--background-color);
 }
-
-*{      
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    /* background: var(--background-color); */
-
-}
-/* html {
-    font-size: 62.5%;
-} */
