@@ -6,7 +6,7 @@ import './portfolio.css'
 
 function Portfolio() {
     return (
-        <Box className='background'>
+        <Box>
             <Sidebar />
             <HomeCard />
         </Box>

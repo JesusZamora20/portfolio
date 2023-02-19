@@ -1,10 +1,10 @@
 .home-card{
-    width: 400px;
-    height: 400px;
+    width: 93vw;
+    height: 500px;
     background: var(--card-color);
     position: relative;
-    left: 100px;
-    top: 10px;
-    border-radius: 40px;
+    left: 5.75vw;
+    top: 1.25vh;
+    border-radius: 30px;
 }
 

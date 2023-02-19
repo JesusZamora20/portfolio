@@ -5,7 +5,7 @@ import React from 'react';
 function HomeCard() {
     return ( 
         <Box className='home-card'>
-            <Typography>Web Developer</Typography>
+            
         </Box> 
     );
 }

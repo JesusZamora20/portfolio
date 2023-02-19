@@ -5,7 +5,8 @@
     justify-content: space-between;
     background: var(--sidebar-color);
     position: fixed;
-    width: 90px;
+    min-width: 5vw;
+    max-width: 5vw;
     height: 100vh;
     left: 0px;
     padding: 25px 0;
