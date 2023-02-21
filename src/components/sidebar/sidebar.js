@@ -14,13 +14,7 @@ function Sidebar() {
 
     return (
         <Box className='Box'>
-            <Stack direction='column' spacing={4} className='Stack'>
-                <Stack direction='column' className='Sidebar-item'>
-                    <IconButton >
-                        <HomeRoundedIcon  className='icon' fontSize='medium'/>
-                    </IconButton>
-                </Stack>
-
+            <Stack direction='column' spacing={7} className='Stack'>
                 <Stack direction='column' className='Sidebar-item'>
                     <IconButton>
                         <AccountCircleRoundedIcon className='icon' fontSize='medium'/>
@@ -46,9 +40,9 @@ function Sidebar() {
                 </Stack>
             </Stack>
 
-            <IconButton>
+            {/* <IconButton>
                 <LightModeRoundedIcon className='icon' fontSize='medium'/>
-            </IconButton>
+            </IconButton> */}
         </Box>
     );
 }

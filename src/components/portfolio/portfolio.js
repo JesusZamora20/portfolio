@@ -1,6 +1,6 @@
 import { Box } from '@mui/material';
 import React from 'react';
-import Sidebar from '../header/sidebar';
+import Sidebar from '../sidebar/sidebar';
 import HomeCard from '../home/homeCard';
 import './portfolio.css'
 
