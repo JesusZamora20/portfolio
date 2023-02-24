@@ -1,0 +1,24 @@
+.box-card{
+    display: flex;
+    flex-direction: column;
+    width: 93vw;
+    height: 100vh;
+    position: relative;
+    padding:  50px 100px;
+    left: 5.75vw;
+    top: 1.25vh;
+    background-image: linear-gradient( to top right,var(--home-card-color1) 20% ,var(--home-card-color2) 130% );
+}
+
+#skills-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: var(--icon-color);
+    padding-bottom: 50px;
+}
+
+.skill-stack-row{
+    display: flex;
+    justify-content: center;
+    background: blue;
+}

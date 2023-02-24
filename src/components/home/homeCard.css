@@ -14,15 +14,15 @@
 
 #title{
     font-family: 'Poppins', sans-serif;
-    font-size: 64px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 500;
     color: var(--icon-color);
 
 }
 #name{
     font-family: 'Poppins', sans-serif;
-    font-size: 32px;
-    font-weight: 500;
+    font-size: 64px;
+    font-weight: 600;
     color: var(--icon-color);
 }
 

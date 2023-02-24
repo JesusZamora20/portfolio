@@ -1,0 +1,7 @@
+.skill-box{
+    /* background: var(--card-color); */
+    background: wheat;
+    height: 100px;
+    width: 450px;
+    padding: 10px;
+}
