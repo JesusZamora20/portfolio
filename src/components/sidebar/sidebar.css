@@ -5,11 +5,12 @@
     justify-content: space-between;
     background: var(--sidebar-color);
     position: fixed;
-    min-width: 5vw;
+    min-width:  5vw;
     max-width: 5vw;
     height: 100vh;
     left: 0px;
     padding: 25px 0;
+    z-index: 1;
 }
 
 .Stack{
@@ -24,5 +25,12 @@
 }
 
 .icon{
+    color: var(--icon-color);
+}
+
+.sidebar-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
     color: var(--icon-color);
 }

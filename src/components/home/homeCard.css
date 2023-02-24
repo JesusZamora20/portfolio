@@ -26,7 +26,7 @@
     color: var(--icon-color);
 }
 
-.about-me-button{
+#aboutMeButton{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 18px;
@@ -37,7 +37,8 @@
     color: var(--icon-color);
     background: var(--home-card-button-color);
 }
-
-
+#aboutMeButton:hover{
+    background: var(--home-card-button-color-hover);
+}
 
 
