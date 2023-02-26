@@ -49,6 +49,10 @@
     background: var(--home-card-button-color);
 }
 
+#github-button:hover{
+    background: var(--home-card-button-color-hover);
+}
+
 #github-icon{
     font-size: 4rem;
 }
@@ -58,6 +62,10 @@
     border-radius: 4rem;
     color: var(--icon-color);
     background: var(--home-card-button-color);
+}
+
+#linkedin-button:hover{
+    background: var(--home-card-button-color-hover);
 }
 
 #linkedin-icon{
