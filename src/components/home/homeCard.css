@@ -42,4 +42,26 @@
     background: var(--home-card-button-color-hover);
 }
 
+#github-button{
+    width: 6rem;
+    border-radius: 4rem;
+    color: var(--icon-color);
+    background: var(--home-card-button-color);
+}
+
+#github-icon{
+    font-size: 4rem;
+}
+
+#linkedin-button{
+    width: 6rem;
+    border-radius: 4rem;
+    color: var(--icon-color);
+    background: var(--home-card-button-color);
+}
+
+#linkedin-icon{
+    font-size: 4rem;
+}
+
 

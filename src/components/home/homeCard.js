@@ -1,5 +1,7 @@
-import { Box, Typography, Button, Stack } from '@mui/material';
+import { Box, Typography, Button, Stack, IconButton } from '@mui/material';
 import AddRoundedIcon from '@mui/icons-material/AddRounded';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './homeCard.css'
 import React from 'react';
 
@@ -11,9 +13,20 @@ function HomeCard() {
                 <Typography id='title' className='home-card-font' variant='h1'>Software Developer</Typography>
             </Stack>
 
-            <Button disableElevation startIcon={<AddRoundedIcon/>} id="aboutMeButton">
-                About me
-            </Button>
+            <Stack direction='row' spacing={4}>
+                <Button disableElevation startIcon={<AddRoundedIcon/>} id="aboutMeButton">
+                    About me
+                </Button>
+
+                <Button disableElevation  id="github-button">
+                    <GitHubIcon id="github-icon"/>
+                </Button>
+
+                <Button disableElevation  id="linkedin-button">
+                    <LinkedInIcon id="linkedin-icon"/>
+                </Button>
+            </Stack>
+            
         </Box> 
     );
 }
