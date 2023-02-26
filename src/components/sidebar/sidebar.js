@@ -17,28 +17,28 @@ function Sidebar() {
             <Stack direction='column' spacing={7} className='Stack'>
                 <Stack direction='column' className='Sidebar-item'>
                     <IconButton className='button-sidebar'>
-                        <AccountCircleRoundedIcon className='icon' fontSize='medium'/>
+                        <AccountCircleRoundedIcon className='icon' fontSize='large'/>
                     </IconButton>
                     <span className='sidebar-text'>me</span>
                 </Stack>
 
                 <Stack direction='column' className='Sidebar-item'>
                     <IconButton className='button-sidebar'>
-                        <ComputerRoundedIcon className='icon' fontSize='medium'/>
+                        <ComputerRoundedIcon className='icon' fontSize='large'/>
                     </IconButton>
                     <span className='sidebar-text'>Skills</span>
                 </Stack>
 
                 <Stack direction='column' className='Sidebar-item'>
                     <IconButton className='button-sidebar'>
-                        <CodeRoundedIcon  className='icon' fontSize='medium'/>
+                        <CodeRoundedIcon  className='icon' fontSize='large'/>
                     </IconButton>
                     <span className='sidebar-text'>Projects</span>
                 </Stack>
 
                 <Stack direction='column' className='Sidebar-item'>
                     <IconButton className='button-sidebar'>
-                        <BusinessCenterRoundedIcon className='icon' fontSize='medium'/>
+                        <BusinessCenterRoundedIcon className='icon' fontSize='large'/>
                     </IconButton>
                     <span className='sidebar-text'>Experience</span>
                 </Stack>
