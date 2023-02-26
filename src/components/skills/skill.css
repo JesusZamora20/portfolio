@@ -2,14 +2,29 @@
     /* background: var(--card-color); */
     background: var(--card-color);
     height: 20rem;
-    max-width: 30rem;
+    width: 32rem;
     padding: 2rem;
     border-radius: 3rem;
 }
 
-.skill-card-text{
+.skill-card-text-details{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: var(--icon-color);
     padding-bottom: 2rem;
 }
+
+.skill-card-text-description{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: var(--icon-color);
+    padding-bottom: 2rem;
+}
+
+.skill-card-text-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: var(--icon-color);
+    padding-bottom: 2rem;
+}
+

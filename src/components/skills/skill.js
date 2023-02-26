@@ -2,12 +2,13 @@ import { Box, Typography } from '@mui/material';
 import React from 'react';
 import './skill.css'
 
-function Skill() {
+function Skill({cardTitle, description, details}) {
+
     return ( 
     <Box className='skill-box'>
-        <Typography variant='h4' className='skill-card-text'>Web development with JavaScript</Typography>
-        <Typography className='skill-card-text'>Cartagena, Colombia</Typography>
-        <Typography className='skill-card-text'>Universidad Tecnologica de Bolivar</Typography>
+        <Typography variant='h4' className='skill-card-text-title'>{cardTitle}</Typography>
+        <Typography variant='h5' className='skill-card-text-description'>{description}</Typography>
+        <Typography variant='h6' className='skill-card-text-details'>{details}</Typography>
     </Box>
     );
 }
