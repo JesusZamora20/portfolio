@@ -10,7 +10,9 @@
     top: 1.25vh;
     border-radius: 3rem;
     margin-bottom: 4rem;
-    background-image: linear-gradient( to top right,var(--home-card-color1) 20% ,var(--home-card-color2) 130% );
+    /* background-image: linear-gradient( to top right,var(--home-card-color1) 20% ,var(--home-card-color2) 130% ); */
+    background-image: url("../../images/home-bg.jpg");
+    background-size: auto;
 }
 
 #title{
