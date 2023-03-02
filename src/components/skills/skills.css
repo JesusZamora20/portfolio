@@ -1,9 +1,10 @@
 .skills-box{
     display: flex;
+    align-items: center;
     flex-direction: column;
     width: 93vw;
     position: relative;
-    padding:  1rem 10rem 15rem 10rem;
+    padding:  1rem 10rem 10rem 10rem;
     left: 5.75vw;
     top: 1.25vh;
     /* background-image: linear-gradient( to top right,var(--home-card-color1) 20% ,var(--home-card-color2) 130% ); */
