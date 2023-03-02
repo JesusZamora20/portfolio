@@ -4,6 +4,7 @@ import Sidebar from '../sidebar/sidebar';
 import HomeCard from '../home/homeCard';
 import './portfolio.css'
 import Skills from '../skills/skills';
+import Projects from '../projects/projects';
 
 function Portfolio() {
     return (
@@ -11,6 +12,7 @@ function Portfolio() {
             <Sidebar />
             <HomeCard />
             <Skills/>
+            <Projects/>
         </Box>
         
     );

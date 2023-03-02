@@ -6,7 +6,7 @@ import './skills.css';
 
 function Skills() {
     return ( 
-    <Box className='box-card' >
+    <Box className='skills-box' >
         <Typography variant='h1' id='skills-title' >Skills & education</Typography>
 
         <Stack direction='column' spacing={2}>
@@ -15,14 +15,13 @@ function Skills() {
                 description={`Universidad Tecnologica de Bolivar. Cartagena, Colombia. 2018-2023`}
                 />
 
-                <Skill cardTitle='JavaScript' 
-                description='Software and web development with JavaScript'
+                <Skill cardTitle='JavaScript / React.js' 
+                description='Software and web development with JavaScript and Frontend development with React. A JavaScript library for building user interfaces'
                 />
 
-                <Skill cardTitle='HTML & CSS' 
-                description='Web styling and responsive design'
+                <Skill cardTitle='HTML & CSS / Material UI' 
+                description='Web styling and responsive design with Html and CSS. Styling with Material UI, an open-source React component library that implements Google`s Material Design '
                 />
-                
             </Stack>
         
             <Stack direction='row' spacing={2} className='skill-stack-row'>
@@ -35,21 +34,10 @@ function Skills() {
                     description='Relational database management system with SQL'
                     />
 
-                <Skill cardTitle='Java SE' 
-                description='Backend development with Java'
+                <Skill cardTitle='Java SE - Spring' 
+                description='Backend development with Java. Spring is a Java framework that focus on speed, simplicity, security and productivity'
                 />
             </Stack>
-
-            
-            <Stack direction='row' spacing={2} className='skill-stack-row'>
-                <Skill cardTitle='Spring' 
-                description='Java framework that focus on speed, simplicity, security and productivity'/>
-                <Skill cardTitle='React.js' 
-                description='Frontend development with React. A JavaScript library for building user interfaces'/>
-                <Skill cardTitle='Material UI' 
-                description='open-source React component library that implements Google`s Material Design'/>
-                
-            </Stack>  
         </Stack>
     </Box> 
     );
