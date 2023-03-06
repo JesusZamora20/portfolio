@@ -1,16 +1,15 @@
-.home-card{
+#home-card{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 93vw;
-    height: 50rem;
+    min-height: 50rem;
     position: relative;
     padding: 10rem;
     left: 5.75vw;
     top: 1.25vh;
     border-radius: 3rem;
     margin-bottom: 4rem;
-    /* background-image: linear-gradient( to top right,var(--home-card-color1) 20% ,var(--home-card-color2) 130% ); */
     background-image: url("../../images/home-bg.jpg");
     background-size: auto;
 }
@@ -35,7 +34,7 @@
     font-size: 1.8rem;
     text-transform: none;
     padding: 1.5rem;
-    width: 25rem;
+    width: 20rem;
     border-radius: 4rem;
     color: var(--icon-color);
     background: var(--home-card-button-color);
@@ -75,3 +74,66 @@
 }
 
 
+@media screen and (max-width: 767px) {
+    #home-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 94vw;
+        left: 3vw;
+        top:2vw;
+        padding: 3rem;
+        border-radius: 2rem;
+        background-image: url("../../images/home-bg.jpg");
+        background-size: cover;
+    }
+
+    #title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 3rem;
+        font-weight: 500;
+        color: var(--icon-color);
+    }
+
+    #name{
+        font-family: 'Poppins', sans-serif;
+        font-size: 4.8rem;
+        font-weight: 600;
+        color: var(--icon-color);
+    }
+
+    #aboutMeButton{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 1.6rem;
+        text-transform: none;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 20rem;
+        border-radius: 4rem;
+        color: var(--icon-color);
+        background: var(--home-card-button-color);
+    }
+
+    #github-button{
+        height: 6rem;        
+        border-radius: 4rem;
+        color: var(--icon-color);
+        background: var(--home-card-button-color);
+    }
+    
+    #github-icon{
+        font-size: 4rem;
+    }
+    
+    #linkedin-button{
+        width: 3rem;
+        border-radius: 6rem;
+        color: var(--icon-color);
+        background: var(--home-card-button-color);
+    }
+    
+    #linkedin-icon{
+        font-size: 4rem;
+    }
+}

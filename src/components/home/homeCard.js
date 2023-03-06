@@ -7,14 +7,14 @@ import React from 'react';
 
 function HomeCard() {
     return ( 
-        <Box className='home-card'>
+        <Box  id='home-card'>
             <Stack direction='column' spacing={4}>
                 <Typography id='name' className='home-card-font' variant='h4'>Jesús Bermúdez Zamora</Typography>
                 <Typography id='title' className='home-card-font' variant='h1'>Software Developer</Typography>
             </Stack>
 
             <Stack direction='row' spacing={4}>
-                <Button disableElevation startIcon={<AddRoundedIcon/>} id="aboutMeButton">
+                <Button disableElevation  id="aboutMeButton">
                     About me
                 </Button>
 

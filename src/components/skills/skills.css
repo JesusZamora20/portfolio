@@ -26,3 +26,9 @@
     justify-content: center;
     /* background: blue; */
 }
+
+@media screen and (max-width: 767px) {
+    .skills-box{
+        display: none;
+    }
+}
