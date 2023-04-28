@@ -11,7 +11,7 @@ function Skills() {
 
         <Stack id='skill-stack-column' >
             <Stack id='skill-stack-row'>
-                <Skill cardTitle='Mecathronic Engineering' 
+                <Skill cardTitle='Mechatronic Engineering' 
                 description={`Universidad Tecnológica de Bolívar. Cartagena, Colombia. 2018-2023`}
                 />
 

@@ -3,9 +3,15 @@ import AddRoundedIcon from '@mui/icons-material/AddRounded';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './homeCard.css'
-import React from 'react';
+import React, { useState } from 'react';
 
 function HomeCard() {
+    const buttonText ="About me";
+    const [isTextVisible, setIsTextVisible] = useState(false);
+
+    const toggleText = () => {
+        setIsTextVisible(!isTextVisible);
+    }
     return ( 
         <Box  id='home-card'>
             <Stack direction='column' spacing={4}>
@@ -14,8 +20,10 @@ function HomeCard() {
             </Stack>
 
             <Stack direction='row' spacing={4}>
-                <Button disableElevation  id="aboutMeButton">
-                    About me
+                <Button disableElevation  
+                        id="aboutMeButton"
+                        onClick={toggleText}>
+                    {buttonText}
                 </Button>
 
                 <Button disableElevation  id="github-button" target="_blank"  rel="noreferrer"
@@ -29,11 +37,12 @@ function HomeCard() {
                 </Button>
             </Stack>
 
-            <Box id="about-me-box">
+
+            { isTextVisible && <Box id="about-me-box">
                 <Typography id="about-me-text" variant="">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
                 </Typography>
-            </Box>
-            
+            </Box>}
+
         </Box> 
     );
 }
