@@ -15,10 +15,10 @@
     font-weight: 600;
     color: var(--icon-color);
     padding-bottom: 3.5rem;
-    background-image: url("../../images/text-bg.jpg");
+    /* background-image: url("../../images/text-bg.jpg");
     background-size: cover;
     background-clip: text;
-    color: transparent;
+    color: transparent; */
 }
 
 #skill-stack-row{

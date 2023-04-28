@@ -28,6 +28,11 @@ function HomeCard() {
                     <LinkedInIcon id="linkedin-icon"/>
                 </Button>
             </Stack>
+
+            <Box id="about-me-box">
+                <Typography id="about-me-text" variant="">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                </Typography>
+            </Box>
             
         </Box> 
     );

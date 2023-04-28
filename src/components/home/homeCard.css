@@ -4,10 +4,13 @@
     justify-content: space-between;
     width: 93vw;
     min-height: 50rem;
+    max-height: 63rem;
     position: relative;
     padding: 10rem;
     left: 5.75vw;
     top: 1.25vh;
+    justify-content: flex-start;
+    gap: 10rem;
     border-radius: 3rem;
     margin-bottom: 4rem;
     background-image: url("../../images/home-bg.jpg");
@@ -16,7 +19,7 @@
 
 #title{
     font-family: 'Poppins', sans-serif;
-    font-size: 4rem;
+    font-size: 3.8rem;
     font-weight: 500;
     color: var(--icon-color);
     text-shadow: 1px 3px 40px var(--card-color);
@@ -73,6 +76,21 @@
 
 #linkedin-icon{
     font-size: 4rem;
+}
+
+#about-me-box{
+    background: var(--home-card-button-color);
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+    position: relative;
+    bottom: 7rem;
+}
+
+#about-me-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--icon-color);
 }
 
 
