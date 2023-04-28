@@ -9,8 +9,8 @@ function Skills() {
     <Box className='skills-box' >
         <Typography variant='h1' id='skills-title' >Skills & education</Typography>
 
-        <Stack direction='column' spacing={2}>
-            <Stack direction='row' spacing={2} className='skill-stack-row'>
+        <Stack id='skill-stack-column' >
+            <Stack id='skill-stack-row'>
                 <Skill cardTitle='Mecathronic Engineering' 
                 description={`Universidad Tecnologica de Bolivar. Cartagena, Colombia. 2018-2023`}
                 />
@@ -24,7 +24,7 @@ function Skills() {
                 />
             </Stack>
         
-            <Stack direction='row' spacing={2} className='skill-stack-row'>
+            <Stack  id='skill-stack-row'>
 
                 <Skill cardTitle='Git & GitHub' 
                 description='Git is a version control system designed to handle small or big projects'
@@ -32,7 +32,7 @@ function Skills() {
                 
                 <Skill cardTitle='SQL - MySQL' 
                     description='Relational database management system with SQL'
-                    />
+                />
 
                 <Skill cardTitle='Java SE - Spring' 
                 description='Backend development with Java. Spring is a Java framework that focus on speed, simplicity, security and productivity'

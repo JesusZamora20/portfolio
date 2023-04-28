@@ -11,7 +11,7 @@
     border-radius: 3rem;
     margin-bottom: 4rem;
     background-image: url("../../images/home-bg.jpg");
-    background-size: auto;
+    background-size: cover;
 }
 
 #title{
@@ -19,6 +19,7 @@
     font-size: 4rem;
     font-weight: 500;
     color: var(--icon-color);
+    text-shadow: 1px 3px 40px var(--card-color);
 
 }
 #name{
@@ -26,6 +27,7 @@
     font-size: 6.4rem;
     font-weight: 600;
     color: var(--icon-color);
+    text-shadow: 1px 3px 40px var(--card-color);
 }
 
 #aboutMeButton{
